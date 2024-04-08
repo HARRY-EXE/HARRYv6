@@ -1,6 +1,6 @@
 # HARRYv6 - The Harry is Back with Version 6!
 
-Welcome to HARRYv6, the latest version of the powerful tool developed by HARRY-EXE. With HARRYv6, you can streamline your tasks and enhance your productivity. Below are the commands to get started:
+Welcome to HARRYv6, the latest version of the powerful tool developed by HARRY-EXE. With HARRYv6, you can crack public and file with regular updates and absolutely free of cost. Below are the commands to get started:
 
 ## Installation
 
