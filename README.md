@@ -1,8 +1,11 @@
-![56674d78-d3d2-4545-9edf-e10ecceafed0](https://github.com/HARRY-EXE/HARRYv6/assets/94730463/4e59bdb5-1e7b-4360-89ac-90957eb947fb)
-
 # HARRYv6 - The Harry is Back with Version 6!
 
 Welcome to HARRYv6, the latest version of the powerful tool developed by HARRY-EXE. With HARRYv6, you can crack public and file with regular updates and absolutely free of cost. Below are the commands to get started:
+
+## Groupchats 
+
+- [Telegram](https://t.me/+1yHJ0NvwjlUwY2Fl)
+- [Whatsapp](https://chat.whatsapp.com/FnIdtCfWUI502l0qmwd9kI)
 
 ## Installation
 
@@ -50,6 +53,12 @@ If you encounter any issues or have suggestions for improvements, feel free to o
 ## License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+## Screenshots
+
+![56674d78-d3d2-4545-9edf-e10ecceafed0](https://github.com/HARRY-EXE/HARRYv6/assets/94730463/4e59bdb5-1e7b-4360-89ac-90957eb947fb)
+
+![d7a82c59-3bfb-4394-988d-21e66a115247](https://github.com/HARRY-EXE/HARRYv6/assets/94730463/5209fba3-7984-49e3-aec8-024927e30aba)
 
 ---
 
