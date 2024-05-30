@@ -1,5 +1,6 @@
 import platform
 import os
+import system from os as import_
 
 global arch
 
@@ -20,13 +21,11 @@ def main():
     if arch == "32BIT":
         print(f"\x1b[37m •\x1b[38;5;196m ->\x1b[37m {arch} DETECED")
         print("\x1b[37m •\x1b[38;5;196m ->\x1b[37m STARTING HARRYv6")
-        import data.HARRY32
-        data.HARRY32.login()
+        import_('data.HARRY32')
     elif arch == "64BIT":
         print(f"\x1b[37m •\x1b[38;5;196m ->\x1b[37m {arch} DETECED")
         print("\x1b[37m •\x1b[38;5;196m ->\x1b[37m STARTING HARRYv6")
-        import data.HARRY64
-        data.HARRY64.login()
+        import_('data.HARRY64')
 if __name__ == "__main__":
     check_python_architecture()
     main()
