@@ -19,11 +19,11 @@ def main():
     os.system("git pull --quiet")
     if arch = "32BIT":
         print(f"\x1b[37m •\x1b[38;5;196m ->\x1b[37m {arch} DETECED")
-        import HARRYv6_32
+        import data.HARRYv6_32
         print("\x1b[37m •\x1b[38;5;196m ->\x1b[37m STARTING HARRYv6")
     elif arch = "64BIT":
         print(f"\x1b[37m •\x1b[38;5;196m ->\x1b[37m {arch} DETECED")
-        import HARRYv6_64
+        import data.HARRYv6_64
         print("\x1b[37m •\x1b[38;5;196m ->\x1b[37m STARTING HARRYv6")
 if __name__ == "__main__":
     check_python_architecture()
