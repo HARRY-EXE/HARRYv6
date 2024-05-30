@@ -1,0 +1,9 @@
+import platform,os
+bit = platform.architecture()[0]
+if bit == '32bit':
+    import HARRY32
+    HARRY32.login()
+elif bit == '64bit':
+    import HARRY64
+    HARRY64.login()
+else:exit()
