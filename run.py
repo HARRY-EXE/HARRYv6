@@ -3,10 +3,10 @@ import os
 from os import system as import_
 login = "python"
 
-global arch
+global arch , file
 
 def check_python_architecture():
-    global arch
+    global arch , file
     architecture = platform.architecture()
     if architecture[0] == '32bit':
         file = "HARRY32.cpython-311.so"
@@ -18,7 +18,7 @@ def check_python_architecture():
         arch = "INVALID"
 
 def main():
-    global arch
+    global arch , file
     print("\x1b[37m •\x1b[38;5;196m ->\x1b[37m CHECKING FOR UPDATES")
     os.system("git pull --quiet")
     if arch == "32BIT":
