@@ -1,6 +1,6 @@
 import platform
 import os
-import system from os as import_
+from os import system as import_
 
 global arch
 
