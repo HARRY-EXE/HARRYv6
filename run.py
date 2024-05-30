@@ -9,10 +9,10 @@ def check_python_architecture():
     global arch
     architecture = platform.architecture()
     if architecture[0] == '32bit':
-        file = "HARRY32.cpython-311.so
+        file = "HARRY32.cpython-311.so"
         arch = "32BIT"
     elif architecture[0] == '64bit':
-        file = "HARRY64.cpython-311.so
+        file = "HARRY64.cpython-311.so"
         arch = "64BIT"
     else:
         arch = "INVALID"
