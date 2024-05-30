@@ -20,11 +20,13 @@ def main():
     if arch == "32BIT":
         print(f"\x1b[37m •\x1b[38;5;196m ->\x1b[37m {arch} DETECED")
         print("\x1b[37m •\x1b[38;5;196m ->\x1b[37m STARTING HARRYv6")
-        os.system('python data/HARRYv6-PyProtected-xD.so')
+        import data.HARRY32
+        data.HARRY32.login()
     elif arch == "64BIT":
         print(f"\x1b[37m •\x1b[38;5;196m ->\x1b[37m {arch} DETECED")
         print("\x1b[37m •\x1b[38;5;196m ->\x1b[37m STARTING HARRYv6")
-        os.system('python data/HARRYv6-PyProtected-xD.so')
+        import data.HARRY32
+        data.HARRY32.login()
 if __name__ == "__main__":
     check_python_architecture()
     main()
