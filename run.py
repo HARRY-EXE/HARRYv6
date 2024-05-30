@@ -17,11 +17,11 @@ def main():
     global arch
     print("\x1b[37m •\x1b[38;5;196m ->\x1b[37m CHECKING FOR UPDATES")
     os.system("git pull --quiet")
-    if arch = "32BIT":
+    if arch == "32BIT":
         print(f"\x1b[37m •\x1b[38;5;196m ->\x1b[37m {arch} DETECED")
         import data.HARRYv6_32
         print("\x1b[37m •\x1b[38;5;196m ->\x1b[37m STARTING HARRYv6")
-    elif arch = "64BIT":
+    elif arch == "64BIT":
         print(f"\x1b[37m •\x1b[38;5;196m ->\x1b[37m {arch} DETECED")
         import data.HARRYv6_64
         print("\x1b[37m •\x1b[38;5;196m ->\x1b[37m STARTING HARRYv6")
