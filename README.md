@@ -42,7 +42,7 @@ cd HARRYv6
 Run the script:
 
 ```bash
-python run.py
+python3 run.py
 ```
 
 Follow the on-screen instructions to start using HARRYv6 and explore its features.
