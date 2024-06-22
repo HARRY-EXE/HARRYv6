@@ -1,66 +1,49 @@
-# HARRYv6 - The Harry is Back with Version 6!
-![IMG_20240601_203247](https://github.com/HARRY-EXE/HARRYv6/assets/94730463/c60cfbc0-1281-44b0-aba4-39a480ff261c)
+# HARRYv6 - Facebook Bruteforce Tool
+![logo](https://github.com/HARRY-EXE/HARRYv6/assets/94730463/439020b0-8223-4e95-9bf3-30de88140963)
+<div align="center">
+  <p>
+    <img alt="GitHub contributors" src="https://img.shields.io/github/contributors/harry-exe/HARRYv6">
+    <img alt="GitHub issues" src="https://img.shields.io/github/issues/harry-exe/HARRYv6">
+    <img src="https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=shields">
+    <img alt="GitHub pull requests" src="https://img.shields.io/github/issues-pr/harry-exe/HARRYv6">
+    <img alt="GitHub commit activity" src="https://img.shields.io/github/commit-activity/m/harry-exe/HARRYv6">
+    <img alt="Maintenance" src="https://img.shields.io/maintenance/no/2024">
+  </p>
+  <h4> Welcome to HARRYv6, the latest version of the powerful tool developed by HARRY-EXE. With HARRYv6, you can crack public and file with regular updates and absolutely free of cost. Below are the commands to get started ! </h4>
+</div>
 
-Welcome to HARRYv6, the latest version of the powerful tool developed by HARRY-EXE. With HARRYv6, you can crack public and file with regular updates and absolutely free of cost. Below are the commands to get started:
+### What is HARRYv6?
+[**HARRYv6**](https://github.com/HARRY-EXE/HARRYv6) is a powerful tool developed by HARRY-EXE, designed to crack public files with regular updates and absolutely no cost. It features various functions such as Facebook automation, including auto like and comment, and employs multiple methods for cracking. Additionally, it includes an optimized file maker and many more functionalities.
+##
 
-## Groupchats 
+### Termux command?
+To utilize this tool, you first need to have [Termux](https://f-droid.org/repo/com.termux_118.apk) installed. Once installed, enter the following command into Termux to proceed.
 
-- [Telegram](https://t.me/+1yHJ0NvwjlUwY2Fl)
-- [Whatsapp](https://chat.whatsapp.com/FnIdtCfWUI502l0qmwd9kI)
-
-## Installation
-
-Make sure you have the following prerequisites installed on your system:
-
-- [git](https://git-scm.com/)
-- [python](https://www.python.org/)
-- [pip](https://pypi.org/project/pip/)
-
-Use the following commands to install the necessary dependencies:
-
-```bash
-pkg install git
+```
 pkg install python
-pip install requests
-pkg update -y && pkg upgrade -y
-```
-
-## Usage
-
-Clone the HARRYv6 repository from GitHub:
-
-```bash
-git clone https://github.com/HARRY-EXE/HARRYv6
-```
-
-Navigate to the HARRYv6 directory:
-
-```bash
+pkg install git
+rm -rf HARRYv6
+git clone --depth=1 https://github.com/HARRY-EXE/HARRYv6
 cd HARRYv6
-```
-
-Run the script:
-
-```bash
+pip install -r requirements.txt
 python3 run.py
 ```
 
-Follow the on-screen instructions to start using HARRYv6 and explore its features.
+```
+cd "$HOME/HARRYv6" && git pull
+python run.py
+```
+##
 
-## Contribution
+### Screenshots
+Here are some screenshots of the tool provided by our users:
 
-If you encounter any issues or have suggestions for improvements, feel free to open an issue or submit a pull request on [GitHub](https://github.com/HARRY-EXE/HARRYv6). Your contributions are highly appreciated!
+<div align="center">
+  <p>
+    <img src="https://github.com/HARRY-EXE/HARRYv6/assets/94730463/07f2b28f-37fa-4ea6-b531-a721e37d542f")
+  </p>
+</div>
 
-## License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
-## Screenshots
-
-![56674d78-d3d2-4545-9edf-e10ecceafed0](https://github.com/HARRY-EXE/HARRYv6/assets/94730463/4e59bdb5-1e7b-4360-89ac-90957eb947fb)
-
-![d7a82c59-3bfb-4394-988d-21e66a115247](https://github.com/HARRY-EXE/HARRYv6/assets/94730463/5209fba3-7984-49e3-aec8-024927e30aba)
-
----
+##
 
 Get ready to experience the power of HARRYv6! Happy hacking! 🚀
