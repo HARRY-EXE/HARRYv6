@@ -1,6 +1,7 @@
 {
+  "facebookprofile": "https://www.facebook.com/profile.php?id=100000492937211",
   "whatsapp": "https://api.whatsapp.com/send/?phone=%2B9779746638816&text&type=phone_number&app_absent=0",
-  "facebook": "https://www.facebook.com/profile.php?id=61561230240600",
+  "facebookpage": "https://www.facebook.com/profile.php?id=61561230240600",
   "telegram": "https://t.me/harryexeee",
   "github": "https://github.com/HARRY-EXE"
 }
