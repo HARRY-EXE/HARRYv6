@@ -2,4 +2,4 @@ requests
 bs4
 rich
 fbtoolsbox
-pycryptodome
+pexpect
