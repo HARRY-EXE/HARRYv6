@@ -8,14 +8,8 @@ def check_python_architecture():
     architecture = platform.architecture()
     if architecture[0] == '32bit':
         arc = "32BIT"
-        import HARRY32
-        HARRY32
-    elif architecture[0] == '64bit':
-        arc = "64BIT"
-        import HARRY64
-        HARRY64
-    else:
-        arc = "INVALID"
+        import data.HARRYv6
+        HARRYv6
 
 if __name__ == "__main__":
     check_python_architecture()
