@@ -18,7 +18,7 @@ def check_python_architecture():
         print(f' •\x1b[38;5;196m ->\x1b[37m 32BIT DETECTED')
         print(f' •\x1b[38;5;196m ->\x1b[37m STARTING HARRYv6 ')
         import data.HARRYv6
-        data.HARRYv6.check_user();data.HARRYv6.check_for_message();data.HARRYv6.name_check(uname);data.HARRYv6.login_check()
+        data.HARRYv6.check_user();data.HARRYv6.check_for_message();data.HARRYv6;data.HARRYv6.login_check()
     else:
         arc = "INVALID"
 
