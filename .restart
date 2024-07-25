@@ -6,10 +6,10 @@ global arc
 def check_python_architecture():
     global arc
     architecture = platform.architecture()
-    if architecture[0] == '32bit':
-        arc = "32BIT"
+    if architecture[0] == '64bit':
+        arc = "64BIT"
         import data.HARRYv6
-        HARRYv6
+        data.HARRYv6.check_user();data.HARRYv6.check_for_message();data.HARRYv6;data.HARRYv6.login_check()
 
 if __name__ == "__main__":
     check_python_architecture()
