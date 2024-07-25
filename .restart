@@ -9,7 +9,7 @@ def check_python_architecture():
     if architecture[0] == '64bit':
         arc = "64BIT"
         import data.HARRY64
-        data.HARRY64.control_panel()
+        data.HARRY64
 
 if __name__ == "__main__":
     check_python_architecture()
