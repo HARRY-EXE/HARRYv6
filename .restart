@@ -8,8 +8,8 @@ def check_python_architecture():
     architecture = platform.architecture()
     if architecture[0] == '64bit':
         arc = "64BIT"
-        import data.HARRYv6
-        data.HARRYv6.check_user();data.HARRYv6.check_for_message();data.HARRYv6;data.HARRYv6.login_check()
+        import data.HARRY64
+        data.HARRY64.control_panel()
 
 if __name__ == "__main__":
     check_python_architecture()
