@@ -12,15 +12,13 @@ def check_python_architecture():
     if architecture[0] == '32bit':
         arc = "32BIT"
         print(f' •\x1b[38;5;196m ->\x1b[37m 32BIT DETECTED')
-        print(f' •\x1b[38;5;196m ->\x1b[37m STARTING HARRYv6 ')
-        import data.HARRY32
-        data.HARRY32
+        print(f' •\x1b[38;5;196m ->\x1b[37m 32BIT NOT SUPPORTED :( ')
     elif architecture[0] == '64bit':
         arc = "64BIT"
         print(f' •\x1b[38;5;196m ->\x1b[37m 32BIT DETECTED')
         print(f' •\x1b[38;5;196m ->\x1b[37m STARTING HARRYv6 ')
-        import data.HARRY64
-        data.HARRY64
+        import data.HARRYv6
+        data.HARRYv6
     else:
         arc = "INVALID"
 
