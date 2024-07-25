@@ -18,7 +18,7 @@ def check_python_architecture():
         print(f' •\x1b[38;5;196m ->\x1b[37m 32BIT DETECTED')
         print(f' •\x1b[38;5;196m ->\x1b[37m STARTING HARRYv6 ')
         import data.HARRY64
-        data.HARRY64.control_panel()
+        data.HARRY64
     else:
         arc = "INVALID"
 
