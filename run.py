@@ -17,14 +17,14 @@ def check_internet():
 if check_internet():
     pass
 else:
-    exit("•\x1b[38;5;196m ->\x1b[37m NO INTERNET CONNECTION")
+    exit(" •\x1b[38;5;196m ->\x1b[37m NO INTERNET CONNECTION")
 
 def check_storage_permission():
     if os.path.isdir(os.path.expanduser("~") + "/storage"):
         pass
     else:
         subprocess.run(["termux-setup-storage"], check=True)
-        exit("•\x1b[38;5;196m ->\x1b[37m NO STORAGE PERMISSION")
+        exit(" •\x1b[38;5;196m ->\x1b[37m NO STORAGE PERMISSION")
         
 def check_python_architecture():
     global arc
