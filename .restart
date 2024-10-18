@@ -10,10 +10,9 @@ def check_python_architecture():
         arc = "64BIT"
         import data.HARRY64
         data.HARRY64
-    elif architecture[0] == '64bit':
-        arc = "64BIT"
-        import data.HARRY64
-        data.HARRY64
+    elif architecture[0] == '32bit':
+        arc = "32BIT"
+        exit()
     else:
         arc = "INVALID"
 
