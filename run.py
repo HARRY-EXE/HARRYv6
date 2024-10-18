@@ -13,9 +13,7 @@ def main():
     architecture = platform.architecture()
     if architecture[0] == '32bit':
         arc = "32BIT"
-        print(f' •\x1b[38;5;196m ->\x1b[37m 32BIT DETECTED')
-        print(f' •\x1b[38;5;196m ->\x1b[37m STARTING HARRYv6 ')
-        import data.HARRY32
+        exit(f' •\x1b[38;5;196m ->\x1b[37m 32BIT NOT SUPPORTED')
     elif architecture[0] == '64bit':
         arc = "64BIT"
         print(f' •\x1b[38;5;196m ->\x1b[37m 64BIT DETECTED')
